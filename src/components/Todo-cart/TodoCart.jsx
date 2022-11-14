@@ -22,7 +22,7 @@ const TodoCart = ({Todo,setMode,setForm,Todos,setTodos}) => {
     <div>Title:{Todo.Title}</div>
     <div>Description:{Todo.Description}</div>
       <div onClick={()=>handlecheck(Todo.id)}>Done:{Todo.Done?'Yes':'No'}</div>
-      <input type="checkbox" onChange={()=>handlecheck(Todo.id)}/>
+    <input type="checkbox" onChange={()=>handlecheck(Todo.id)}/>
     <button onClick={()=>handledelete(Todo.id)}>Delete</button>
     <button onClick={()=>handleupdate(Todo)}>Update</button>
     </div>
