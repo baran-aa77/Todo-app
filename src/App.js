@@ -17,6 +17,12 @@ function App() {
     Title:'English class',
     Description:'10-12 oclock',
     Done:true
+  },
+  {
+    id:3,
+    Title:'website class',
+    Description:'13-18 oclock',
+    Done:true
   }
   ])
 
